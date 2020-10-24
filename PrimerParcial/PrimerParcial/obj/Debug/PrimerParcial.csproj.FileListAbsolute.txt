@@ -1,0 +1,7 @@
+D:\tekhne\fundamentos2020Agosto\POOAgosto\FundamentosPOO\PrimerParcial\PrimerParcial\bin\Debug\PrimerParcial.exe.config
+D:\tekhne\fundamentos2020Agosto\POOAgosto\FundamentosPOO\PrimerParcial\PrimerParcial\bin\Debug\PrimerParcial.exe
+D:\tekhne\fundamentos2020Agosto\POOAgosto\FundamentosPOO\PrimerParcial\PrimerParcial\bin\Debug\PrimerParcial.pdb
+D:\tekhne\fundamentos2020Agosto\POOAgosto\FundamentosPOO\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.csprojAssemblyReference.cache
+D:\tekhne\fundamentos2020Agosto\POOAgosto\FundamentosPOO\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.csproj.CoreCompileInputs.cache
+D:\tekhne\fundamentos2020Agosto\POOAgosto\FundamentosPOO\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.exe
+D:\tekhne\fundamentos2020Agosto\POOAgosto\FundamentosPOO\PrimerParcial\PrimerParcial\obj\Debug\PrimerParcial.pdb
