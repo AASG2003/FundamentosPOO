@@ -13,7 +13,7 @@ namespace LibreriaPOO.Models
     {
         public void verCodigo()
         {
-            Console.WriteLine(codigoMotor);
+            Console.WriteLine(CodigoMotor);
         }
     }
 }

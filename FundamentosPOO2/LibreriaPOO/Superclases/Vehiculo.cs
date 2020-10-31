@@ -8,8 +8,21 @@ namespace LibreriaPOO.Superclases
 {
     public class Vehiculo
     {
-        protected int codigoMotor;
+        // attr
+        private int codigoMotor;
+
+        //constructor
+
+        // properties
         public int Recorrido { get; set; }
+
+        public int CodigoMotor
+        {
+            get { return codigoMotor; }
+            set { codigoMotor = value; }
+        }
+
+        // metodo
         public int Kilometraje()
         {
             return Recorrido * 100;
