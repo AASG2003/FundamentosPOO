@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace LibreriaPOO.Superclases
 {
-    public class Vehiculo
+    public abstract class Vehiculo
     {
         // attr
         private int codigoMotor;
 
         //constructor
+        public Vehiculo(int recorrido, int codigoMotor)
+        {
+            Recorrido = recorrido;
+            CodigoMotor = codigoMotor;
+        }
 
         // properties
         public int Recorrido { get; set; }

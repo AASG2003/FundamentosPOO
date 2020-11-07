@@ -1,8 +1,11 @@
 ﻿
+using FigurasGeometricas.Clases;
+using FigurasGeometricas.Superclases;
 using FundamentosPOOEstudiantes.Controllers;
 using FundamentosPOOEstudiantes.Models;
 using LibreriaPOO.Controllers;
 using LibreriaPOO.Models;
+using LibreriaPOO.Superclases;
 using System;
 
 namespace FundamentosPOO2
@@ -37,14 +40,45 @@ namespace FundamentosPOO2
             //    }
             //}
 
-            EstudiantesController estController = new EstudiantesController();
-            estController.AgregarEstudiante("Emilson", 2563);
-            estController.AgregarEstudiante("Carlos", 32547);
-            estController.AgregarEstudiante("Carla", 98541);
-            foreach (Estudiante estudiante in estController.ListaEstudiantes)
-            {
-                Console.WriteLine("Estudiante {0}", estudiante.Nombre);
-            }
+            //EstudiantesController estController = new EstudiantesController();
+            //estController.AgregarEstudiante("Emilson", 2563);
+            //estController.AgregarEstudiante("Carlos", 32547);
+            //estController.AgregarEstudiante("Carla", 98541);
+            //foreach (Estudiante estudiante in estController.ListaEstudiantes)
+            //{
+            //    Console.WriteLine("Estudiante {0}", estudiante.Nombre);
+            //}
+
+            // Las clases abstractas solo pueden manejar la herencia de forma similar a una herencia normal
+            // pero no permiten crear instancias de esa clase o sea no puedo crear objetos Vehiculo
+            //Vehiculo vehiculo1 = new Vehiculo(100, 2563);
+            //Motocicleta motocicleta1 = new Motocicleta(50, 32145);
+            //Automovil automovil1 = new Automovil(150, 2589);
+            ////Console.WriteLine(vehiculo1.Kilometraje());
+            //Console.WriteLine(motocicleta1.Kilometraje());
+            //Console.WriteLine(automovil1.Kilometraje());
+
+            Cuadrado cuadrado = new Cuadrado(10, 10);
+            Rectangulo rectangulo = new Rectangulo(10, 15);
+            Triangulo triangulo = new Triangulo(10, 15);
+            //Console.WriteLine("el area del cuadrado es {0} y su perimetro es {1}"
+            //    , cuadrado.CalcularArea(), cuadrado.Perimetro());
+            //Console.WriteLine("el area del triangulo es {0} y su perimetro es {1}"
+            //    , triangulo.CalcularArea(), triangulo.Perimetro());
+            //Console.WriteLine("el area del rectangulo es {0} y su perimetro es {1}"
+            //    , rectangulo.CalcularArea(), rectangulo.Perimetro());
+
+            //FiguraGeometrica figura1 = new FiguraGeometrica(23,20);
+
+            // Boxing uboxing
+            Cuadrado cuadradoAux = null;
+            Object initialBox = cuadrado;
+            initialBox = triangulo;
+            // usando el operador is
+            //if (initialBox is Cuadrado)
+            //    cuadradoAux = (Cuadrado)initialBox;
+            // usando el operador as
+            cuadradoAux = initialBox as Cuadrado;
         }
 
         //public static void AgregarMotocicleta()

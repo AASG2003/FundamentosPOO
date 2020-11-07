@@ -14,14 +14,14 @@ namespace LibreriaPOO.Controllers
         public TiendaController()
         {
             motocicletas = new List<Motocicleta>();
-            Motocicleta moto1 = new Motocicleta() { Recorrido = 8 };
+            Motocicleta moto1 = new Motocicleta(50, 3687) { Recorrido = 8 };
             moto1.Kilometraje();
             moto1.Desgaste();
         }
 
         public void AgregarMotocicleta(int codMotor, int recorrido)
         {
-            Motocicleta moto = new Motocicleta() { Recorrido = recorrido, CodigoMotor=123 };
+            Motocicleta moto = new Motocicleta(recorrido, codMotor);
             motocicletas.Add(moto);
         }
     }

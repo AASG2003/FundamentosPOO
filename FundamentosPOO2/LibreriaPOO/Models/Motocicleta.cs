@@ -11,6 +11,10 @@ namespace LibreriaPOO.Models
     // del actual ensamblado o de otro ensamblado, internal para poder usar la clase solo dentro del mismo ensamblado
     public class Motocicleta : Vehiculo
     {
+        public Motocicleta(int recorrido, int codigoMotor)
+            : base(recorrido, codigoMotor)
+        { }
+
         public void verCodigo()
         {
             Console.WriteLine(CodigoMotor);

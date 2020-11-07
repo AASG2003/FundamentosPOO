@@ -9,5 +9,8 @@ namespace LibreriaPOO.Models
 {
     public class Automovil : Vehiculo
     {
+        public Automovil(int recorrido, int codigoMotor)
+            : base(recorrido, codigoMotor)
+        { }
     }
 }
