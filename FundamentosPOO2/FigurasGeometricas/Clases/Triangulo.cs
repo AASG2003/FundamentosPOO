@@ -22,5 +22,10 @@ namespace FigurasGeometricas.Clases
         {
             return 2 * AlturaFigura + BaseFigura;
         }
+
+        public int CalcularHipotenusa()
+        {
+            return 10;
+        }
     }
 }

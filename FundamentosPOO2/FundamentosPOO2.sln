@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundamentosPOOEstudiantes",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigurasGeometricas", "FigurasGeometricas\FigurasGeometricas.csproj", "{C37EB111-AAD5-4D28-8822-51403911AFEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfismo", "Polimorfismo\Polimorfismo.csproj", "{296F8A89-BF96-43C9-A5AD-882789D519A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpleadosForm", "EmpleadosForm\EmpleadosForm.csproj", "{F6226AA9-A532-4289-98ED-20A9946028D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{C37EB111-AAD5-4D28-8822-51403911AFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C37EB111-AAD5-4D28-8822-51403911AFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C37EB111-AAD5-4D28-8822-51403911AFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{296F8A89-BF96-43C9-A5AD-882789D519A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296F8A89-BF96-43C9-A5AD-882789D519A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296F8A89-BF96-43C9-A5AD-882789D519A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296F8A89-BF96-43C9-A5AD-882789D519A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6226AA9-A532-4289-98ED-20A9946028D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6226AA9-A532-4289-98ED-20A9946028D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6226AA9-A532-4289-98ED-20A9946028D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6226AA9-A532-4289-98ED-20A9946028D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

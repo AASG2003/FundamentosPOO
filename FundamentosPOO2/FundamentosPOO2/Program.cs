@@ -7,6 +7,7 @@ using LibreriaPOO.Controllers;
 using LibreriaPOO.Models;
 using LibreriaPOO.Superclases;
 using System;
+using System.Collections.Generic;
 
 namespace FundamentosPOO2
 {
@@ -79,6 +80,28 @@ namespace FundamentosPOO2
             //    cuadradoAux = (Cuadrado)initialBox;
             // usando el operador as
             cuadradoAux = initialBox as Cuadrado;
+
+            Triangulo triangulo2 = new Triangulo(12, 25);
+            Object objecyAux = triangulo2;
+            objecyAux = new Cuadrado(10, 23);
+            //triangulo2 = (Triangulo)objecyAux;
+            triangulo2 = objecyAux as Triangulo;
+
+            //
+            FiguraGeometrica contenedorAuxiliar = null;
+            contenedorAuxiliar = triangulo;
+            Console.WriteLine(((Triangulo)contenedorAuxiliar).CalcularHipotenusa());
+            contenedorAuxiliar = cuadrado;
+            contenedorAuxiliar = rectangulo;
+            List<FiguraGeometrica> listaFiguras = new List<FiguraGeometrica>();
+            listaFiguras.Add(triangulo);
+            listaFiguras.Add(cuadrado);
+            listaFiguras.Add(rectangulo);
+            foreach (FiguraGeometrica figura in listaFiguras)
+            {
+                Console.WriteLine("el area de la figura es {0} y su perimetro es {1}"
+                , figura.CalcularArea(), figura.Perimetro());
+            }
         }
 
         //public static void AgregarMotocicleta()
