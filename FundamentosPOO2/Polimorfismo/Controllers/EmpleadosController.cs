@@ -33,5 +33,10 @@ namespace Polimorfismo.Controllers
 
             listaEmpleados.Add(nuevoEmpleado);
         }
+
+        public Empleado BuscarEmpelado(int codigoEmpelado)
+        {
+            return null;
+        }
     }
 }

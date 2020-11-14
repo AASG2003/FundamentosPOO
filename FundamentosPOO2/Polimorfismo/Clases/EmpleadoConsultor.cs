@@ -14,5 +14,11 @@ namespace Polimorfismo.Clases
         {}
 
         public DateTime FechaLimite { get; set; }
+
+        public override string ToString()
+        {
+            string cadenaBase = base.ToString();
+            return string.Format("Empleado consultor {0}", cadenaBase);
+        }
     }
 }

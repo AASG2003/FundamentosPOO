@@ -14,5 +14,11 @@ namespace Polimorfismo.Clases
         {}
 
         public int CodigoSerguro { get; set; }
+
+        public override string ToString()
+        {
+            string cadenaBase = base.ToString();
+            return string.Format("Empleado de planta {0}", cadenaBase);
+        }
     }
 }
