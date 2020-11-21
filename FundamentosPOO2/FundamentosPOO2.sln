@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfismo", "Polimorfism
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpleadosForm", "EmpleadosForm\EmpleadosForm.csproj", "{F6226AA9-A532-4289-98ED-20A9946028D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceClass", "InterfaceClass\InterfaceClass.csproj", "{9CDC4C3E-3D04-4468-898A-AAB1818EFCE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudianteUI", "EstudianteUI\EstudianteUI.csproj", "{F6EFDFF3-17F1-490A-8B65-D5367C9FF3BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{F6226AA9-A532-4289-98ED-20A9946028D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6226AA9-A532-4289-98ED-20A9946028D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6226AA9-A532-4289-98ED-20A9946028D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CDC4C3E-3D04-4468-898A-AAB1818EFCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDC4C3E-3D04-4468-898A-AAB1818EFCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CDC4C3E-3D04-4468-898A-AAB1818EFCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CDC4C3E-3D04-4468-898A-AAB1818EFCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EFDFF3-17F1-490A-8B65-D5367C9FF3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EFDFF3-17F1-490A-8B65-D5367C9FF3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EFDFF3-17F1-490A-8B65-D5367C9FF3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EFDFF3-17F1-490A-8B65-D5367C9FF3BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
