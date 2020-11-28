@@ -23,9 +23,9 @@ namespace InterfaceClass.controllers
             private set { listaEstudiantes = value; }
         }
 
-        public void AgregarEstudiante(string nombre, string codigo, string curso)
+        public void AgregarEstudiante(string nombre, string codigo, string curso, string ci)
         {
-            listaEstudiantes.Add(new Estudiante(nombre, codigo, curso));
+            listaEstudiantes.Add(new Estudiante(nombre, codigo, curso, ci));
         }
 
         public List<Estudiante> FiltrarLista(IFiltro filtro, string parametroFiltro)

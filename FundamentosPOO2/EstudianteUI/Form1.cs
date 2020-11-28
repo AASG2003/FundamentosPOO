@@ -29,7 +29,8 @@ namespace EstudianteUI
             string nombre = textBox1.Text;
             string codigo = textBox2.Text;
             string curso = textBox3.Text;
-            controller.AgregarEstudiante(nombre, codigo, curso);
+            string ci = textBox5.Text;
+            controller.AgregarEstudiante(nombre, codigo, curso, ci);
             ActualizarLista(controller.ListaEstudiantes);
             limpiarCampos();
         }
@@ -48,6 +49,7 @@ namespace EstudianteUI
             textBox1.Text = string.Empty;
             textBox2.Text = string.Empty;
             textBox3.Text = string.Empty;
+            textBox5.Text = string.Empty;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -63,11 +65,22 @@ namespace EstudianteUI
             comboBox1.Items.Add(new FiltroNombre());
             comboBox1.Items.Add(new FiltroCodigo());
             comboBox1.Items.Add(new FiltroCurso());
+            comboBox1.Items.Add(new FiltroCarnet());
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             ActualizarLista(controller.ListaEstudiantes);
+        }
+
+        private void ChangeColor(object sender, EventArgs e)
+        {
+            this.button1.BackColor = Color.Green;
+        }
+
+        private void ChangeBackColor(object sender, EventArgs e)
+        {
+            this.button1.BackColor = Color.Yellow;
         }
     }
 }

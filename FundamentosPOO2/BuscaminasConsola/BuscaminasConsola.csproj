@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9CDC4C3E-3D04-4468-898A-AAB1818EFCE7}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InterfaceClass</RootNamespace>
-    <AssemblyName>InterfaceClass</AssemblyName>
+    <ProjectGuid>{FA519430-7041-4837-9984-33DD4B23C003}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>BuscaminasConsola</RootNamespace>
+    <AssemblyName>BuscaminasConsola</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,15 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\Estudiante.cs" />
-    <Compile Include="Clases\FiltroCarnet.cs" />
-    <Compile Include="Clases\FiltroCodigo.cs" />
-    <Compile Include="Clases\FiltroCurso.cs" />
-    <Compile Include="Clases\FiltroNombre.cs" />
-    <Compile Include="controllers\EstudianteController.cs" />
-    <Compile Include="InterfaceClass\IFiltro.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BuscaminasLibrary\BuscaminasLibrary.csproj">
+      <Project>{6DD6B564-5E3B-4431-8903-494969BB4682}</Project>
+      <Name>BuscaminasLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

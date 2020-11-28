@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceClass", "Interface
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudianteUI", "EstudianteUI\EstudianteUI.csproj", "{F6EFDFF3-17F1-490A-8B65-D5367C9FF3BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscaminasLibrary", "BuscaminasLibrary\BuscaminasLibrary.csproj", "{6DD6B564-5E3B-4431-8903-494969BB4682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscaminasConsola", "BuscaminasConsola\BuscaminasConsola.csproj", "{FA519430-7041-4837-9984-33DD4B23C003}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{F6EFDFF3-17F1-490A-8B65-D5367C9FF3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6EFDFF3-17F1-490A-8B65-D5367C9FF3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6EFDFF3-17F1-490A-8B65-D5367C9FF3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD6B564-5E3B-4431-8903-494969BB4682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD6B564-5E3B-4431-8903-494969BB4682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD6B564-5E3B-4431-8903-494969BB4682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD6B564-5E3B-4431-8903-494969BB4682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA519430-7041-4837-9984-33DD4B23C003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA519430-7041-4837-9984-33DD4B23C003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA519430-7041-4837-9984-33DD4B23C003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA519430-7041-4837-9984-33DD4B23C003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

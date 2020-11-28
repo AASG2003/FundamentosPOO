@@ -11,7 +11,7 @@ namespace InterfaceClass.Clases
     {
         public bool FiltrarPor(Estudiante estudiante, string parametroFiltrar)
         {
-            return estudiante.NombreEstudiante.Equals(parametroFiltrar);
+            return estudiante.NombreEstudiante.Contains(parametroFiltrar);
         }
 
         public override string ToString()

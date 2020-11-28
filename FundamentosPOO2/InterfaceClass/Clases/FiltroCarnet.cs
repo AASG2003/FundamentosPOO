@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace InterfaceClass.Clases
 {
-    public class FiltroCodigo : IFiltro
+    public class FiltroCarnet : IFiltro
     {
         public bool FiltrarPor(Estudiante estudiante, string parametroFiltrar)
         {
-            return estudiante.CodigoEstudiante.Contains(parametroFiltrar);
+            return estudiante.CI.Contains(parametroFiltrar);
         }
 
         public override string ToString()
         {
-            return string.Format("Filtrar por codigo");
+            return string.Format("Filtrar por carnet");
         }
     }
 }
